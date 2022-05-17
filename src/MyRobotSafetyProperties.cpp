@@ -29,8 +29,8 @@ MyRobotSafetyProperties::MyRobotSafetyProperties(ControlSystem &cs, double dt)
 
     // Declare and add critical outputs
     // ... = hal.getLogicOutput("...");
-    greenLED = hal.getLogicOutput("OnBoardLEDgreen"); //defined in the hardware abstraction layer
-    redLED = hal.getLogicOutput("OnBoardLEDred");
+    greenLED = hal.getLogicOutput("onBoardLEDgreen"); //defined in the hardware abstraction layer
+    redLED = hal.getLogicOutput("onBoardLEDred");
 
     // criticalOutputs = { ... };
     criticalOutputs = { greenLED, redLED };
