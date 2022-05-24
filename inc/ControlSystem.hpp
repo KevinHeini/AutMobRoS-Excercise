@@ -15,9 +15,11 @@ public:
     ControlSystem(double dt);
 
     // Define Blocks
-    PeripheralInput<> q1;
-    Gain<> g;
-    PeripheralOutput<> servo;
+    // PeripheralInput<> q1;
+    // Gain<> g;
+    // PeripheralOutput<> servo;
+
+    PeripheralInput<> E2;
 
     TimeDomain timedomain;
 };
