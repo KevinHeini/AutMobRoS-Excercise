@@ -27,6 +27,7 @@ int main(int argc, char **argv)
     hal.readConfigFromFile(&argc, argv);
 
     log.info() << "Initializing control system...";
+    log.info() << "Hallo Keeeevin";
     ControlSystem cs(dt);
 
     log.info() << "Initializing safety system...";
